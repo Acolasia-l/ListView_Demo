@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_man"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="1\n"
+        android:background="@drawable/biankuang"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="100\n"
+        android:background="@drawable/biankuang"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:background="@drawable/biankuang"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="2020.8.18 \n13:13"
+        android:gravity="center"/>
+
+</LinearLayout>
